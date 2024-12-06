@@ -1,7 +1,21 @@
-BTC Clipper Program For Android Made In C# According To Google Limited access to clipboard data Unless your app is the default input method editor (IME) or is the app that currently has focus, your app cannot access clipboard data on Android 10 or higher. Clipper App is working fine Till Android 9.
+BTC Clipper for Android (C#)
 
-Download: https://t.me/dedsee3c/52548
+Description:
+BTC Clipper is an Android application built using C# that is designed to monitor the clipboard for Bitcoin (BTC) wallet addresses. The main purpose of the app is to detect when a Bitcoin address is copied to the clipboard and automatically replace it with a different address (for malicious purposes, though the use of this technology is discouraged and unethical if used without the consent of the user).
+
+Key Features:
+Clipboard Access: This app monitors the clipboard for copied Bitcoin wallet addresses.
+Compatibility: Works on Android versions prior to Android 10 (Android 9 and lower). For Android 10 and above, access to clipboard data is restricted unless the app is the default input method editor (IME) or in the foreground.
+Written in C#: The app is developed using C# with Xamarin, making it possible to run the app on Android devices.
+
+Important Notes:
+Android 10+ Limitations: As per Google's new policy for Android 10 and later, applications can no longer freely access clipboard data unless they meet certain conditions (e.g., being the default input method editor). This means the BTC Clipper app will work without issues only on Android versions prior to Android 10.
+For Android 9 and earlier: The BTC Clipper app can access the clipboard and replace copied Bitcoin addresses, as there are no such restrictions in those versions.
+For Android 10 and later: The app's functionality is severely limited due to Android's privacy measures. Without being the default keyboard app or being in the foreground, the app cannot read or modify the clipboard.
 
 Requirements:
-Windows 8 TO 11
-Java Jre And Java Jdk Should Be Installed
+Operating System: Windows 8 to 11
+Java: Java JRE (Java Runtime Environment) and Java JDK (Java Development Kit) must be installed for proper compilation.
+Android SDK: You will also need to set up the Android SDK if you're planning to compile and run the app on an Android device.
+Disclaimer:
+This app should be used responsibly. Intercepting or modifying clipboard data without user consent may violate privacy laws and ethical guidelines. It is essential to use this program in a legal and responsible manner.
